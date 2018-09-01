@@ -55,7 +55,7 @@ export function fetchLocksIfNeeded() {
 function fetchLocks() {
     return dispatch => {
         dispatch(requestLocks());
-        return axios.get(`https://s3-ap-southeast-1.amazonaws.com/he-public-data/long_game_tree77fa4dd.json`)
+        return axios.get(`/api/long_game_tree77fa4dd.json`)
             .then(json => {
                 //console.log(json);
                 dispatch(receiveLocks(json))
