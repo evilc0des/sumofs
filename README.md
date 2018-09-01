@@ -9,6 +9,7 @@ A simple File Browser based on json filesystem
 
 Run these commands:
 `npm install`
+<br>
 `npm run dev -s` 
 
 ### For Deployment
