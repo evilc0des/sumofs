@@ -42,6 +42,8 @@ body {
 
     ul {
         padding-left: 16px;
+        max-height: calc(100vh - 128px);
+        overflow-y: scroll;
     }
 
     li {
@@ -85,6 +87,8 @@ body {
         align-self: stretch;
 
         height: 100%;
+        max-height: calc(100vh - 64px);
+        overflow-y: scroll;
         
     
         .directory-items {
