@@ -1,4 +1,20 @@
 # SumoFS
+A simple File Browser based on json filesystem
 
-To Start in Dev: `npm run dev -s` 
-To Build to Production: `npm run build` 
+### Get the code
+
+`git clone https://github.com/evilc0des/sumofs.git`
+
+### For Development
+
+Run these commands:
+`npm install`
+`npm run dev -s` 
+
+### For Deployment
+
+First Build the app:
+`npm run build` 
+
+Then start server:
+`npm start`
